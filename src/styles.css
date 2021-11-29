@@ -53,7 +53,7 @@ a:visited {
 }
 
 .custom-nav {
-  background-color: var(--accent-color-fade) !important;
+  background-color: var(--primary-color) !important;
   text-align: left;
 }
 

@@ -111,3 +111,24 @@ a:visited {
   font-weight: 600;
   display: inline-block;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 34px';
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .project-content {
+    text-align: center;
+        margin: 20px 0px;
+  }
+  .fakeBio {
+    margin: 20px 10px;
+  }
+
+}

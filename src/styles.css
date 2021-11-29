@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #3c1874;
+  --secondary-color: #932432;
+  --tertiary-color: #283747;
+  --accent-color: #de354c;
+  --base-color: #f3f3f3;
+  --accent-color-fade: #f1cfd1;
+}
+
+body {
+  margin: 0px auto;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: var(--base-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 26px;
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color) !important;
+}
+
+a:visited {
+  color: var(--tertiary-color);
+}
+
+.links {
+  margin: 70px 0px;
+}
+
+.custom-nav {
+  background-color: var(--accent-color-fade) !important;
+  text-align: left;
+}
+
+.custom-nav .navbar-brand {
+  color: var(--accent-color);
+}
+
+.links a {
+  background-color: var(--accent-color);
+  color: var(--base-color);
+  padding: 20px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.links a:last-child {
+  margin-right: 0;
+  background-color: var(--base-color);
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.fakeBio {
+  margin: 40px;
+  text-align: justify;
+  color: var(--tertiary-color);
+  font-size: 18px;
+}
+
+.contact_section h2 {
+  margin-bottom: 16px;
+}
+
+.contact_section a {
+  font-size: 20px;
+}
+
+.project-content {
+  text-align: left;
+  color: var(--tertiary-color);
+}
+
+.project-content a {
+  background-color: var(--accent-color);
+  color: var(--base-color);
+  padding: 20px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}

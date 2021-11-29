@@ -79,7 +79,7 @@ a:visited {
 }
 
 .fakeBio {
-  margin: 40px;
+  margin: 40px 0px;
   text-align: justify;
   color: var(--tertiary-color);
   font-size: 18px;

@@ -85,6 +85,10 @@ a:visited {
   font-size: 18px;
 }
 
+.contact_section {
+  padding: 10px 0 40px;
+}
+
 .contact_section h2 {
   margin-bottom: 16px;
 }

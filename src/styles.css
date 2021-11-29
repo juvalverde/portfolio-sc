@@ -123,10 +123,19 @@ a:visited {
   h3 {
     font-size: 22px;
   }
-  .project-content {
-    text-align: center;
-        margin: 20px 0px;
+  img {
+    display: none;
   }
+
+  .project-content {
+    text-align: center;     
+  }
+
+  .project-content a {
+    display: block;
+    text-align: center;
+  }
+  
   .fakeBio {
     margin: 20px 10px;
   }

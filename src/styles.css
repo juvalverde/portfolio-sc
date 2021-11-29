@@ -112,7 +112,7 @@ a:visited {
   display: inline-block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 60px;
     margin-bottom: 10px;
